@@ -1,0 +1,84 @@
+Requirements
+
+1. kali linux latest orginal
+	https://kali.training/downloads/Kali-Linux-Revealed-1st-edition.pdf
+2. run "Armitag"
+2. run "metasploit-framework"
+3. open folder "/usr/share/metasploit-framework/plugins"
+4. in msf terminal run "load sample"
+
+
+Develop Module
+
+5. in msf console run "sample"
+6. open file "sample.rb" from open folder files
+7. make some change : print_line("You pass: #{args.join(' ')}")
+8. rerun step 5
+9. in msf run "reload_all"
+10. in msf run steps 4 & 5 , you must see your changes effect...
+
+
+What is "aggregator"
+
+11. when you run armitag the system convert to enviroment that can listen to any week connection from outside 
+   _like a js or img file refrencing call from a tag in loaded html page in client browser....
+   _then aggregator manage the meterpreter hocks into created connection
+   _in dark think its enough for hurmfule attack...
+
+
+What is "auto_add_route"
+
+12. it can Pivoting a connection with use all famouse proxychains and can connect to socks for detection better
+    _in dark plan if you want attack to sites connected to a clouding service by this way you can find the latest real pc ip that in more case have no serious firewall :)
+	https://www.offensive-security.com/metasploit-unleashed/pivoting/
+
+
+Hash effect form connections
+
+13. any connection have binary unmanaged data that carry the client device info, current user activities,...
+14. "Binary-coding" is the art of detect these info
+
+Attack to session
+
+15. "beholder.rb" is the place that you can get control over user device deeply 
+   _even control webcam :|
+16. "db_credcollect" is the place for detect user local session login info
+17. "sqlmap" query anything realtime over session
+    _database detection is just a small part of this ablility...
+
+
+Fataliti
+
+17. write bad things on user session 
+    _even run action from client to target
+    _in this art ip spoofing is the start of the story book
+	https://www.offensive-security.com/metasploit-unleashed/packet-sniffing/
+18. "token_hunter , token_adduser" even change session user ...
+
+
+ByPass client firewall
+
+18. "db_tracker & IPSFilter" help to have inteligent action with fiewals
+	https://www.hackingarticles.in/bypass-firewall-restrictions-metasploit-reverse_tcp_allports/
+
+
+Fast Vulen detection
+
+19. "nexpose" is the modernest with web service upgrades
+20. "nessus" like 19 with easier policy
+21. "wmap" start write your pure scanner
+
+
+Wont be a wictom
+
+22. "openvas" start your pure firewall
+23. "session_tagger , socket_logger , thread" detect attacks to you
+24. "sounds , session_notifier" fast warn to you or your services
+
+
+GoodLuck, try wont be hurmful :)
+
+
+
+
+
